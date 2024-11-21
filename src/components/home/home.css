@@ -1,0 +1,27 @@
+.home_container {
+    background: url(/img/bg.png);
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background-clip: initial;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the container */
+    background-position: center; /* Center the image */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content */
+}
+@font-face {
+    font-family: 'Amandine'; /* Name to reference the font */
+    src: url('/fonts/Amandine_Regular.otf') format('opentype'); /* Path to your OTF file */
+    font-weight: normal; /* Adjust if you have different weights */
+    font-style: normal;  /* Adjust if you have italic versions */
+}
+
+/* Apply to h1 */
+.home_container h1 {
+    font-family: 'Amandine';
+    font-weight: normal; /* Match the weight defined in @font-face */
+    font-size: 2.5rem; /* Adjust as needed */
+    text-align: center; /* Optional, for centering text */
+    color: white; /* Keep your text visible on the background */
+}
